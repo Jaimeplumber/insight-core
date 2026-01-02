@@ -1,4 +1,34 @@
-venv/ 
-.env 
-node_modules/ 
-__pycache__/ 
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+
+# --- Environment variables ---
+.env
+.env.*
+
+# --- Pytest ---
+.pytest_cache/
+
+# --- Databases ---
+*.db
+
+# --- Data / outputs ---
+data/
+*.json
+
+# --- Node / frontend ---
+node_modules/
+frontend/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+*.bak
+docker
+python
